@@ -216,18 +216,13 @@ A full presentation of the project is in [`docs/Hotel_Performance_Analytics`](ht
 - Next analyses: realized rates, booking mix, length of stay, cancellation timing.
 
 
-## 11. How to reproduce
-1. Create a database in SQL Server and run the scripts in `sql/bronze`, then `sql/silver`, then `sql/gold`.
-2. Place your own CSV exports in a local folder and update the file paths in the `BULK INSERT` statements. **Raw data is not included in this repository.**
-3. Open the Power BI report, point the data source to your server and database, and refresh.
-
-## 12. Skills demonstrated
+## 11. Skills demonstrated
 - **Data engineering:** T-SQL, Bronze/Silver/Gold architecture, `BULK INSERT`, deduplication, NULL handling, views.
 - **Data modelling:** Kimball dimensional modelling, star schema, fact-table grain, composite business keys.
 - **BI:** Power BI live connection, Power Query, date table, DAX measures, dashboard design.
 - **Analytics:** ADR, RevPAR, occupancy and cancellation analysis; seasonality; data storytelling and management recommendations.
 
-## 14. Contact
+## 12. Contact
 **[Mahmoud Abdelsalam]** · [LinkedIn](https://www.linkedin.com/in/mahmoud-ahmed09/)
 
 *Open to Data Analyst and BI Analyst opportunities.*
