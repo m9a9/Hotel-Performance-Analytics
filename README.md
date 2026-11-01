@@ -56,7 +56,7 @@ flowchart LR
     E --> F[Dashboards<br/>and insights]
 ```
 
-![Architecture](docs/images/architecture.png)
+![Architecture]
 
 | Layer | Purpose | What happens here |
 |---|---|---|
@@ -101,7 +101,7 @@ erDiagram
 
 *Simplified concept diagram: each analysis uses the relevant subset of tables.*
 
-![Data model](docs/images/data_model.png)
+![Data model](https://github.com/m9a9/Hotel-Performance-Analytics/blob/main/model.png)
 
 | Table type | Tables |
 |---|---|
@@ -136,7 +136,7 @@ Comparisons use **full years 2023 and 2025**. 2022 and 2026 are partial years an
 
 Fewer bookings (−6.9%) combined with lower revenue per booking (−9.8%) account for the −16.1% revenue change.
 
-![Revenue](docs/images/revenue.png)
+![Revenue]
 
 ### 7.2 Lower realized room rates, not fewer occupied nights
 | | 2023 | 2025 | Change |
@@ -146,7 +146,7 @@ Fewer bookings (−6.9%) combined with lower revenue per booking (−9.8%) accou
 
 At category level, ADR fell about **13.8%** for Single Room and **19.4%** for One Bedroom Suite. This is a descriptive pattern. Possible explanations (discounting, booking mix, room mix, length of stay) are hypotheses for further investigation.
 
-![ADR vs nights](docs/images/adr_vs_nights.png)
+![ADR vs nights]
 
 ### 7.3 Room categories have different profiles
 | Category | Revenue (overall) | Occupancy | ADR (SAR) | RevPAR (SAR) |
@@ -157,7 +157,7 @@ At category level, ADR fell about **13.8%** for Single Room and **19.4%** for On
 
 Single Room brings volume; the suites earn more per room but fill less often. The highest-revenue category is not necessarily the one with the highest rate or RevPAR.
 
-![Room categories](docs/images/room_categories.png)
+![Room categories](https://github.com/m9a9/Hotel-Performance-Analytics/blob/main/Rooms.png)
 
 ### 7.4 Cancellation rate peaked in 2024
 | Year | Cancellation rate |
@@ -206,7 +206,7 @@ The Power BI report has three pages:
 ![Drivers](docs/images/dashboard_3_drivers.png)
 -->
 
-A full presentation of the project is in [`docs/Hotel_Performance_Analytics.pdf`](docs/Hotel_Performance_Analytics.pdf).
+A full presentation of the project is in [`docs/Hotel_Performance_Analytics`](https://app.powerbi.com/groups/me/reports/5a984d9e-6556-4594-83a9-d5f57d818f9b?ctid=2bb6e5bc-c109-47fb-9433-c1c6f4fa33ff&pbi_source=linkShare).
 
 ## 10. Limitations
 - 2022 and 2026 are partial years; conclusions compare full years only.
@@ -215,32 +215,19 @@ A full presentation of the project is in [`docs/Hotel_Performance_Analytics.pdf`
 - Trends and cancellation rates do not prove causation.
 - Next analyses: realized rates, booking mix, length of stay, cancellation timing.
 
-## 11. Repository structure
-```
-hotel-performance-analytics/
-├── README.md
-├── sql/
-│   ├── bronze/        # table creation + BULK INSERT scripts
-│   ├── silver/        # cleaning, deduplication, NULL handling
-│   └── gold/          # reporting views
-├── powerbi/           # Power BI report file / model notes and measures
-└── docs/
-    ├── Hotel_Performance_Analytics.pdf
-    └── images/
-```
 
-## 12. How to reproduce
+## 11. How to reproduce
 1. Create a database in SQL Server and run the scripts in `sql/bronze`, then `sql/silver`, then `sql/gold`.
 2. Place your own CSV exports in a local folder and update the file paths in the `BULK INSERT` statements. **Raw data is not included in this repository.**
 3. Open the Power BI report, point the data source to your server and database, and refresh.
 
-## 13. Skills demonstrated
+## 12. Skills demonstrated
 - **Data engineering:** T-SQL, Bronze/Silver/Gold architecture, `BULK INSERT`, deduplication, NULL handling, views.
 - **Data modelling:** Kimball dimensional modelling, star schema, fact-table grain, composite business keys.
 - **BI:** Power BI live connection, Power Query, date table, DAX measures, dashboard design.
 - **Analytics:** ADR, RevPAR, occupancy and cancellation analysis; seasonality; data storytelling and management recommendations.
 
 ## 14. Contact
-**[Your Name]** · [LinkedIn](https://www.linkedin.com/in/your-profile) · [Email](mailto:your.email@example.com)
+**[Mahmoud Abdelsalam]** · [LinkedIn](https://www.linkedin.com/in/mahmoud-ahmed09/)
 
 *Open to Data Analyst and BI Analyst opportunities.*
