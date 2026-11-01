@@ -9,7 +9,7 @@ An end-to-end analytics project for a hotel: raw operational CSV exports are loa
 
 > **Headline result:** revenue fell **16.1%** between 2023 and 2025 (full years). The data points to **lower realized room rates** (ADR **−15.2%**) rather than fewer occupied nights (**−0.7%**), and the **cancellation rate peaked at 34.35% in 2024**.
 
-![Executive summary](docs/images/executive_summary.png)
+![Executive summary](https://github.com/m9a9/Hotel-Performance-Analytics/blob/main/over.png)
 
 > **Data privacy:** this was a freelance engagement. The hotel is anonymised and no guest or raw data is included in this repository.
 
