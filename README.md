@@ -206,7 +206,7 @@ The Power BI report has three pages:
 ![Drivers](docs/images/dashboard_3_drivers.png)
 -->
 
-A full presentation of the project is in [`docs/Hotel_Performance_Analytics`](https://app.powerbi.com/groups/me/reports/5a984d9e-6556-4594-83a9-d5f57d818f9b?ctid=2bb6e5bc-c109-47fb-9433-c1c6f4fa33ff&pbi_source=linkShare).
+A full presentation of the project is in [`docs/Hotel_Performance_Analytics`]().
 
 ## 10. Limitations
 - 2022 and 2026 are partial years; conclusions compare full years only.
