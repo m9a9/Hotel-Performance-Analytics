@@ -24,10 +24,11 @@ An end-to-end analytics project for a hotel: raw operational CSV exports are loa
 6. [Key measures](#6-key-measures)
 7. [Insights](#7-insights)
 8. [Recommendations](#8-recommendations)
-9. [Dashboard pages](#9-dashboard-pages)
-10. [Limitations](#10-limitations)
-11. [Skills demonstrated](#13-skills-demonstrated)
-12. [Contact](#14-contact)
+9. Proposed solution: Q4 2026 operating plan
+10. [Dashboard pages](#9-dashboard-pages)
+11. [Limitations](#10-limitations)
+12. [Skills demonstrated](#13-skills-demonstrated)
+13. [Contact](#14-contact)
 
 ---
 
@@ -193,7 +194,54 @@ These are areas to investigate. No financial benefit is claimed.
 | 4 | Review cancellation patterns and policies | 29.34% → 34.35% → 33.04% | Cancellation rate, timing |
 | 5 | Plan for the recurring September slowdown | September dip in 2023–2025 | September revenue, occupancy, ADR |
 
-## 9. Dashboard pages
+## 9. Proposed solution: Q4 2026 operating plan
+Analysis alone does not change results, so I turned the findings into an **operating plan for the remaining weeks of Q4 2026 (November and December)**, the hotel's second-strongest quarter in 2025 (28.7% of annual revenue; SAR 330,785 and 640 bookings).
+ 
+> **Status:** the plan is a proposal. Its results have not been measured yet, and no financial benefit is claimed.
+ 
+### 9.1 From findings to decisions
+| Finding | What it means for the plan |
+|---|---|
+| 2026 growth came from volume at lower value (revenue per booking −10%) | Do not buy volume with blanket discounts; protect the rate |
+| ADR −15.2% while occupied nights were flat | Rate integrity matters more than extra discounting |
+| Suites fill less often (e.g. 42.44% occupancy) | Package suites for families and small groups |
+| Cancellations at 33–34% | Use deposits, reconfirmation and a waitlist |
+| Q4 2025 is the benchmark | Track weekly pace against it |
+ 
+### 9.2 Targets based on physical capacity
+A first target of matching Q4 2025 would have required close to full occupancy over the remaining two months, so I **replaced it with capacity-based targets**: with 19 rooms, November and December offer about **1,159 room-nights**.
+ 
+| Occupancy | Room-nights | Revenue at ADR 280 | Revenue at ADR 300 | Approx. bookings |
+|---|---|---|---|---|
+| 45% | 522 | ≈ 146K | ≈ 157K | ≈ 300 |
+| **55% (realistic)** | 637 | ≈ 178K | ≈ 191K | ≈ 366 |
+| 65% (stretch) | 753 | ≈ 211K | ≈ 226K | ≈ 433 |
+ 
+*SAR. Bookings estimated at 1.74 nights per booking. Q4 revenue = October actual + these figures.*
+ 
+### 9.3 Action plan
+| Lever | Actions |
+|---|---|
+| **Pricing and rate integrity** | Higher weekend rates with a two-night minimum; lower weekday rates through packages, not blanket discounts; a rate floor above cost per occupied room; consistent prices across channels |
+| **Target segments** | Travellers using the nearby train station and airport, group and tour operators, families, long stays, and overflow when nearby hotels are full |
+| **Room mix** | Family rooms as price anchor; suites for large families and groups; top-tier rooms as upgrades for repeat guests, not discounted |
+| **Cancellation control** | Prepaid or deposit rates for groups, a non-refundable rate with a small discount, reconfirmation before arrival, a waitlist to resell cancelled nights |
+| **Direct and partnerships** | Consent-based messaging to past guests, referral arrangements with drivers and travel agents, fixed-rate group contracts with release dates |
+| **Revenue per booking** | Transfers, breakfast, laundry, late check-out and partner tours |
+| **Forward selling** | Open early sales for the next peak season with deposits |
+ 
+### 9.4 Weekly tracking and decision rules
+| KPI | Reference |
+|---|---|
+| Occupancy and room-nights vs target pace | 55% scenario |
+| Revenue per completed booking | At least ~480 (Q4 2025: 517) |
+| ADR, occupancy and RevPAR by room category | Compare with Q4 2025 |
+| Cancellation rate | Towards ~30% (currently 33–34%) |
+ 
+- Booking pace below 90% of required → targeted offer on the lagging room category.
+- Booking pace above 110% of required → raise rates on the remaining nights.
+
+## 10. Dashboard pages
 The Power BI report has three pages:
 
 1. **Hotel Performance Overview:** headline revenue, bookings and cancellation KPIs over time.
@@ -208,7 +256,7 @@ The Power BI report has three pages:
 
 A full presentation of the project is in [`docs/Hotel_Performance_Analytics`]().
 
-## 10. Limitations
+## 11. Limitations
 - 2022 and 2026 are partial years; conclusions compare full years only.
 - Revenue and completed bookings must be compared using compatible date and record definitions.
 - Revenue per completed booking is descriptive, not ADR.
@@ -216,13 +264,13 @@ A full presentation of the project is in [`docs/Hotel_Performance_Analytics`]().
 - Next analyses: realized rates, booking mix, length of stay, cancellation timing.
 
 
-## 11. Skills demonstrated
+## 12. Skills demonstrated
 - **Data engineering:** T-SQL, Bronze/Silver/Gold architecture, `BULK INSERT`, deduplication, NULL handling, views.
 - **Data modelling:** Kimball dimensional modelling, star schema, fact-table grain, composite business keys.
 - **BI:** Power BI live connection, Power Query, date table, DAX measures, dashboard design.
 - **Analytics:** ADR, RevPAR, occupancy and cancellation analysis; seasonality; data storytelling and management recommendations.
 
-## 12. Contact
+## 13. Contact
 **[Mahmoud Abdelsalam]** · [LinkedIn](https://www.linkedin.com/in/mahmoud-ahmed09/)
 
 *Open to Data Analyst and BI Analyst opportunities.*
