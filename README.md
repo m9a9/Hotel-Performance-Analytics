@@ -24,11 +24,11 @@ An end-to-end analytics project for a hotel: raw operational CSV exports are loa
 6. [Key measures](#6-key-measures)
 7. [Insights](#7-insights)
 8. [Recommendations](#8-recommendations)
-9. [Proposed solution: Q4 2026 operating plan]
-10. [Dashboard pages](#9-dashboard-pages)
-11. [Limitations](#10-limitations)
-12. [Skills demonstrated](#13-skills-demonstrated)
-13. [Contact](#14-contact)
+9. [Proposed solution: Q4 2026 operating plan](#9-Proposed-Solution)
+10. [Dashboard pages](#10-dashboard-pages)
+11. [Limitations](#11-limitations)
+12. [Skills demonstrated](#12-skills-demonstrated)
+13. [Contact](#13-contact)
 
 ---
 
