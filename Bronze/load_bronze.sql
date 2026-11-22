@@ -53,75 +53,75 @@ GO
 --? loading 2022 Bookings
 exec bronze.LoadCSV
 @TableName='bookings',
-@FilePath='D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2022\Bookings 2022.csv';
+@FilePath='FILE PATH';
 GO
 --? loading 2023 Bookings
 exec bronze.LoadCSV @TableName = 'bookings',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2023\Bookings 2023.csv"
+@FilePath = "FILE PATH"
 
 --? loading 2024 Bookings
 exec bronze.LoadCSV @TableName = 'bookings',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2024\Bookings 2024.csv"
+@FilePath = "FILE PATH"
 --? loading 2025 Bookings
 exec bronze.LoadCSV @TableName = 'bookings',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2025\Bookings 2025.csv"
+@FilePath = "FILE PATH"
 --? loading 2026 Bookings
 exec bronze.LoadCSV @TableName = 'bookings',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2026\Bookings 2026.csv"
+@FilePath = "FILE PATH"
 
 --!>> Loading Customer Report >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 --? loading 2022 customer report
 exec bronze.LoadCSV @TableName = 'CustomerReport',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2022\customer_report_2022_cleaned.csv";
+@FilePath = "FILE PATH";
 
 --? loading 2023 customer report
 exec bronze.LoadCSV @TableName = 'CustomerReport',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2023\customer_report_2023_cleaned.csv";
+@FilePath = "FILE PATH";
 --? loading 2024 customer report
 exec bronze.LoadCSV @TableName = 'CustomerReport',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2024\customer_report_2024_cleaned.csv";
+@FilePath = "FILE PATH";
 --? loading 2025 customer report
 exec bronze.LoadCSV @TableName = 'CustomerReport',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2025\customer_report_2025_cleaned.csv";
+@FilePath = "FILE PATH";
 --? loading 2026 customer report
 exec bronze.LoadCSV @TableName = 'CustomerReport',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2026\customer_report_2026_cleaned.csv";
+@FilePath = "FILE PATH";
 
 --! >>> Loading Invoice Reports >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 --? loading 2022 InvoiceReports
 exec bronze.LoadCSV @TableName = 'InvoiceReports',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2022\InvoicesReport2022.csv";
+@FilePath = "FILE PATH";
 --? loading 2023 InvoiceReports
 exec bronze.LoadCSV @TableName = 'InvoiceReports',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2023\InvoicesReport2023.csv";
+@FilePath = "FILE PATH";
 --? loading 2024 InvoiceReports
 exec bronze.LoadCSV @TableName = 'InvoiceReports',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2024\InvoicesReport2024.csv";
+@FilePath = "FILE PATH";
 --? loading 2025 InvoiceReports
 exec bronze.LoadCSV @TableName = 'InvoiceReports',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2025\InvoicesReport2025.csv";
+@FilePath = "FILE PATH";
 --? loading 2026 InvoiceReports
 exec bronze.LoadCSV @TableName = 'InvoiceReports',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2026\InvoicesReport2026.csv";
+@FilePath = "FILE PATH";
 
 --! >>> loading occupany data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 --? loading 2022 ocupancy
 exec bronze.LoadCSV @TableName = 'Occupancy',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2022\occupancy 2022.csv";
+@FilePath = "FILE PATH";
 
 --? loading 2023 ocupancy
 exec bronze.LoadCSV @TableName = 'Occupancy',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2023\occupancy 2023.csv";
+@FilePath = "FILE PATH";
 --? loading 2024 ocupancy
 exec bronze.LoadCSV @TableName = 'Occupancy',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2024\occupancy 2024.csv";
+@FilePath = "FILE PATH";
 --? loading 2025 ocupancy
 exec bronze.LoadCSV @TableName = 'Occupancy',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2025\occupancy 2025.csv";
+@FilePath = "FILE PATH";
 --? loading 2026 ocupancy
 exec bronze.LoadCSV @TableName = 'Occupancy',
-@FilePath = "D:\Mahmoud\ANALYSIS PROJECT\Hotel Data\DataSet\2026\occupancy 2026.csv";
+@FilePath = "FILE PATH";
 
 --! inserting manual data for employees and rooms
 
@@ -148,9 +148,9 @@ VALUES(101,'Single Room'),
 
 --! Employees
 insert into bronze.employees(Employee_Id,Employee_Name)
-VALUES(1,'ماهر صميدان الحربي'),
-(2,'الحربي'),
-(3,'ياسمين')
+VALUES(1,'EMPLOYEE NAME'),
+(2,'EMPLOYEE NAME'),
+(3,'EMPLOYEE NAME')
 
 
 
