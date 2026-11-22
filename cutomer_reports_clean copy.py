@@ -16,7 +16,7 @@ def clean_reports_copy(input_path,output_path):
 
 
 #! cleaning Customer report files for aug and septenber 2026
-clean_reports_copy(input_path=r"C:\Users\WIN 11\Downloads\CustomerReport.csv",
-              output_path=r"C:\Users\WIN 11\Downloads\CustomerReport_cleaned.csv")
+clean_reports_copy(input_path=r"FILE PATH",
+              output_path=r"OUTPUT PATH")
 
     
